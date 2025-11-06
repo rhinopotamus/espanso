@@ -1,0 +1,87 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  # Revisions
+  - trigger: ";rev"
+    markdown: "Revisions due {{inaweek}} -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
+    vars:
+      - name: inaweek
+        type: date
+        params:
+          format: "%b %-d"
+          offset: 604800
+
+  # No submission
+  - trigger: ";calcns"
+    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3571957/quizzes/9124328)?"
+
+  - trigger: ";discns"
+    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3571940/quizzes/9128594)?"
+
+  - trigger: ";oh"
+    markdown: "My office hours for Fall 2025 are MW 10-11, TTh 1:30 - 3, or you can [book an appointment](https://outlook.office365.com/owa/calendar/DrBagleysofficehours@wcedu.onmicrosoft.com/bookings/) at another time that's convenient for you."
+    
+#----------------------------------------------------------------------------------
+  # specifics
+  - trigger: ";fcn"
+    replace: "What kind of function is this? (Where's the variable?)"
+
+  - trigger: ";pow"
+    replace: "don't forget the new power!"
+
+#----------------------------------------------------------------------------------
+  # overall comments
+  - trigger: ";pdf"
+    replace: "See some comments on the pdf."
+
+  - trigger: ";nj"
+    replace: "Nice job on this assignment "
+
+  - trigger: ";nor"
+    replace: "See a couple of notes on your pdf, but nothing I need to see a rewrite about."
+
+
+#----------------------------------------------------------------------------------
+  # Symbols
+  - trigger: "&Delta;"
+    replace: "Δ"
+
+
+#----------------------------------------------------------------------------------
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
