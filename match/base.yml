@@ -11,7 +11,8 @@ matches:
 
   # Revisions
   - trigger: ";rev"
-    markdown: "Revisions due {{inaweek}} -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
+    markdown: "Revisions due Dec 12 -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
+    #markdown: "Revisions due {{inaweek}} -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
     vars:
       - name: inaweek
         type: date
@@ -47,13 +48,6 @@ matches:
 
   - trigger: ";nor"
     replace: "See a couple of notes on your pdf, but nothing I need to see a rewrite about."
-
-
-#----------------------------------------------------------------------------------
-  # Symbols
-  - trigger: "&Delta;"
-    replace: "Δ"
-
 
 #----------------------------------------------------------------------------------
   # Simple text replacement
