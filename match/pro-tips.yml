@@ -1,0 +1,9 @@
+matches:
+
+  - trigger: ";space"
+    replace: "Pro tip: trying to cram too much stuff into too small of a space is a good way to either make silly mistakes or to convince yourself that you don't need to show work / write explanations. It's always better to use more space than less -- paper is cheap :)"
+
+  - trigger: ";zero"
+    replace: "Pro tip: put leading zeroes in front of decimal places -- so like, 0.5 rather than .5 -- to reduce the probability of accidentally dropping a decimal point. (I have done this one thousand times.)"
+
+

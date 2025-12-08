@@ -1,0 +1,8 @@
+matches:
+
+  - trigger: "BNice"	
+    replace: "Nice"
+  - trigger: "`1"	
+    replace: "1"
+  - trigger: "int he"	
+    replace: "in the"

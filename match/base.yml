@@ -30,13 +30,58 @@ matches:
   - trigger: ";oh"
     markdown: "My office hours for Fall 2025 are MW 10-11, TTh 1:30 - 3, or you can [book an appointment](https://outlook.office365.com/owa/calendar/DrBagleysofficehours@wcedu.onmicrosoft.com/bookings/) at another time that's convenient for you."
     
+
+#---------------------------------------------------------------------------
+  # logistics issues
+
+  - trigger: ";form"
+    replace: "Unfortunately this doesn't include a reflection form yet, so I can't regrade it yet. Make sure to complete a reflection form, which is linked on the front page of Canvas. Then resubmit! \n Let me know if you have any questions."
+
+  - trigger: ";desc"
+    replace: "Read the assignment description on Canvas!"
+
 #----------------------------------------------------------------------------------
-  # specifics
+  # MATH 101
   - trigger: ";fcn"
     replace: "What kind of function is this? (Where's the variable?)"
 
-  - trigger: ";pow"
-    replace: "don't forget the new power!"
+  - trigger: ";axes"
+    replace: "Remember the independent variable goes on the horizontal axis and the dependent variable goes on the vertical axis."
+
+  - trigger: ";dep"
+    replace: "Which variable is dependent and which is independent?"
+
+  - trigger: ";ucf"
+    replace: "Write out all your work using unit conversion fractions."
+
+  - trigger: ";sa"	
+    replace: "Make me a successive approximation table for this part."
+
+  - trigger: ";round"
+    replace: "How would it make sense for us to round this number?"
+
+#----------------------------------------------------------------------------------
+  # MATH 201
+  - trigger: ";slope"
+    replace: "Shouldn't a slope have units something *per* something?"
+
+  - trigger: ";roc"	
+    replace: "Oops, these rates of change are upside down. Remember that the change in indep goes in the numerator and the change in dep goes in the denominator."
+
+#----------------------------------------------------------------------------------
+  # Point annotations that aren't specific to any one class
+
+  - trigger: ";work"
+    replace: "This is incorrect, but because you didn't show your work, I can't help you figure out why."
+
+  - trigger: ";units"
+    replace: "Write units on every number in your work."
+
+  - trigger: ";sense"
+    replace: "Does this number make sense?"
+
+  - trigger: ";fix"
+    replace: "Revisit this after fixing the earlier stuff."
 
 #----------------------------------------------------------------------------------
   # overall comments
