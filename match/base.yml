@@ -11,8 +11,7 @@ matches:
 
   # Revisions
   - trigger: ";rev"
-    markdown: "Revisions due Dec 12 -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
-    #markdown: "Revisions due {{inaweek}} -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
+    markdown: "Revisions due {{inaweek}} -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
     vars:
       - name: inaweek
         type: date
@@ -28,7 +27,7 @@ matches:
     markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3571940/quizzes/9128594)?"
 
   - trigger: ";oh"
-    markdown: "My office hours for Fall 2025 are MW 10-11, TTh 1:30 - 3, or you can [book an appointment](https://outlook.office365.com/owa/calendar/DrBagleysofficehours@wcedu.onmicrosoft.com/bookings/) at another time that's convenient for you."
+    markdown: "Come visit office hours and chat about this assignment! You can [book an appointment](https://outlook.office365.com/owa/calendar/DrBagleysofficehours@wcedu.onmicrosoft.com/bookings/) at any time that's convenient for you."
     
 
 #---------------------------------------------------------------------------
@@ -93,6 +92,11 @@ matches:
 
   - trigger: ";nor"
     replace: "See a couple of notes on your pdf, but nothing I need to see a rewrite about."
+
+#----------------------------------------------------------------------------------
+  # Boilerplate 
+  - trigger: ";src"
+    markdown: "As with every assignment in this class, I'm using [the usual Success! / Revise! criteria](https://docs.google.com/document/d/1ZLNdrD3Fskh_-WB0tXOqE6BoOqp1-S6VO_OReRN_tJ4/edit?usp=sharing)."
 
 #----------------------------------------------------------------------------------
   # Simple text replacement
