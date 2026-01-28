@@ -26,6 +26,11 @@ matches:
   - trigger: ";discns"
     markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3571940/quizzes/9128594)?"
 
+  - trigger: ";202ns"
+    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3596660/quizzes/9205710)?"
+
+    
+
   - trigger: ";oh"
     markdown: "Come visit office hours and chat about this assignment! You can [book an appointment](https://outlook.office365.com/owa/calendar/DrBagleysofficehours@wcedu.onmicrosoft.com/bookings/) at any time that's convenient for you."
     
