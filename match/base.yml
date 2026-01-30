@@ -44,6 +44,9 @@ matches:
   - trigger: ";desc"
     replace: "Read the assignment description on Canvas!"
 
+  - trigger: ";big"
+    replace: "Okay, so annoying logistical thing: this pdf is huge bc iOS doesn't do a good job making pdfs. Let's chat during class about producing more manageable files."
+
 #----------------------------------------------------------------------------------
   # MATH 101
   - trigger: ";fcn"
