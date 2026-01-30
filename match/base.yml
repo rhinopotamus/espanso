@@ -20,11 +20,11 @@ matches:
           offset: 604800
 
   # No submission
-  - trigger: ";calcns"
-    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3571957/quizzes/9124328)?"
+  - trigger: ";201ns"
+    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3596662/quizzes/9201557)?"
 
-  - trigger: ";discns"
-    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3571940/quizzes/9128594)?"
+  - trigger: ";101ns"
+    markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3596666/quizzes/9221743)?"
 
   - trigger: ";202ns"
     markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3596660/quizzes/9205710)?"
