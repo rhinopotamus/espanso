@@ -55,6 +55,9 @@ matches:
   - trigger: ";axes"
     replace: "Remember the independent variable goes on the horizontal axis and the dependent variable goes on the vertical axis."
 
+  - trigger: ";nl"
+    replace: "This is not a good number line because the marks are not evenly spaced."
+
   - trigger: ";dep"
     replace: "Which variable is dependent and which is independent?"
 
