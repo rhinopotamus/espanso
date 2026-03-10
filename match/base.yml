@@ -79,6 +79,11 @@ matches:
     replace: "Oops, these rates of change are upside down. Remember that the change in indep goes in the numerator and the change in dep goes in the denominator."
 
 #----------------------------------------------------------------------------------
+  # MATH 202
+  - trigger: ";spray"
+    replace: "I am gently spraying you with a little spray bottle"
+
+#----------------------------------------------------------------------------------
   # Point annotations that aren't specific to any one class
 
   - trigger: ";work"
