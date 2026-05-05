@@ -19,6 +19,10 @@ matches:
           format: "%b %-d"
           offset: 604800
 
+  # Revisions (May)
+  - trigger: ";may"
+    markdown: "Revisions due Friday 5/8 -- be sure to include [reflection form](https://docs.google.com/document/d/1igj2CqJ6pSrcEUVTo-yxQghGYUwxpBV9Bm9HiudAhMs/copy?usp=sharing) :)"
+
   # No submission
   - trigger: ";201ns"
     markdown: "Looks like I don't have a submission from you on this assignment -- would you like to submit a [due date change request](https://westminster.instructure.com/courses/3596662/quizzes/9201557)?"
