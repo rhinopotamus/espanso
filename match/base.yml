@@ -118,6 +118,9 @@ matches:
   - trigger: ";src"
     markdown: "As with every assignment in this class, I'm using [the usual Success! / Revise! criteria](https://docs.google.com/document/d/1ZLNdrD3Fskh_-WB0tXOqE6BoOqp1-S6VO_OReRN_tJ4/edit?usp=sharing)."
 
+  - trigger: ";appt"
+    replace: "It looks like you were unable to keep your office hours appointment today. Please feel free to reschedule at another time that works for you.\n\nCheers\nDr Bagley"
+
 #----------------------------------------------------------------------------------
   # Simple text replacement
   - trigger: ":espanso"
